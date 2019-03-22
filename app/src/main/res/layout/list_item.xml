@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:layout_height="35dp">
+    <ImageView
+        android:id="@+id/id_treenode_icon"
+        android:src="@drawable/tree_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/id_treenode_label"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="测试"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+        <ImageView
+            android:background="@null"
+            android:duplicateParentState="true"
+            android:id="@+id/ib_next_tree"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>

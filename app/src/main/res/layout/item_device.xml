@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/coloritem_bg"
+    android:padding="1dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/coloritem_text"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:gravity="center_vertical"
+            android:text="名称:"
+           style="@style/Style_item_text"/>
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceName"
+            style="@style/Style_item_text"
+            android:text="设备1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="@color/coloritem_text"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:text="类别:"
+            style="@style/Style_item_text"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceDType"
+            style="@style/Style_item_text"
+            android:text="设备类别" />
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:text="厂家:"
+            style="@style/Style_item_text"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceCompany"
+            style="@style/Style_item_text"
+            android:text="设备厂家" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="@color/coloritem_text"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:text="属性:"
+            style="@style/Style_item_text"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceAttribute"
+            style="@style/Style_item_text"
+            android:text="设备属性" />
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:text="型号:"
+            style="@style/Style_item_text"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceModel"
+            style="@style/Style_item_text"
+            android:text="设备型号" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="@color/coloritem_text"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:text="备注:"
+            style="@style/Style_item_text"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_deviceRemark"
+            style="@style/Style_item_text"
+            android:text="备注" />
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></RelativeLayout>
+</LinearLayout>
